@@ -1,4 +1,5 @@
-﻿using System.Net.Mime;
+﻿//My Second Commit
+using System.Net.Mime;
 using Ardalis.ListStartupServices;
 using Azure.Identity;
 using BlazorAdmin;
@@ -21,7 +22,6 @@ using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.eShopWeb.Web.Pages;
 using Microsoft.FeatureManagement;
 using Microsoft.IdentityModel.Tokens;
-//commit 2
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Logging.AddConsole();
